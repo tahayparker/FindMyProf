@@ -3,16 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'lempicka-smallcapsregular';
-  src: url('./fonts/lempickasmallcaps-webfont.woff2') format('woff2'),
-       url('./fonts/lempickasmallcaps-webfont.woff') format('woff'),
-       url('./fonts/LempickaSmallCaps.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
 @layer base {
   :root {
     -ms-overflow-style: none;
@@ -153,12 +143,6 @@
   .glow-button>* {
     position: relative;
     z-index: 1;
-  }
-
-  .brandname {
-    font-family: 'lempicka-smallcapsregular';
-    font-size: 4rem;
-    color: #fff;
   }
 
   @keyframes fadeIn {
