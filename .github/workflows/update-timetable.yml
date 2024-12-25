@@ -57,7 +57,7 @@ jobs:
 
       - name: Initialize the DB
         if: steps.check_changes.outputs.csv_changed == 'true'
-        run: curl -X POST https://vacansee.vercel.app/api/initdb
+        run: curl -X POST https://findmyprof.vercel.app/api/initdb
 
       - name: Check for JSON file and generate if needed
         id: check_json
