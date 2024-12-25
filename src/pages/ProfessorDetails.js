@@ -140,7 +140,7 @@ const ProfessorDetails = () => {
               {filteredProfessors.map((professor, index) => (
                 <tr 
                   key={index} 
-                  className="hover:shadow-[0_0_10px_rgba(30,85,92,0.3)] transition-all duration-150"
+                  className="hover:shadow-[0_0_10px_rgba(0,109,91,0.3)] transition-all duration-150"
                   style={{
                     animation: 'fadeIn 0.5s ease-out forwards',
                     animationDelay: `${index * 0.05}s`,
