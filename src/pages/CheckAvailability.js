@@ -24,6 +24,7 @@ const styles = {
 
 function CheckAvailability() {
   const [professor, setProfessor] = useState('');
+  const [inputValue, setInputValue] = useState('');
   const [day, setDay] = useState('');
   const [startTime, setStartTime] = useState('');
   const [endTime, setEndTime] = useState('');
@@ -56,9 +57,9 @@ function CheckAvailability() {
 
   useEffect(() => {
     setFilteredProfessors(
-      professors.filter((p) => p.toLowerCase().includes(professor.toLowerCase()))
+      professors.filter((p) => p.toLowerCase().includes(inputValue.toLowerCase()))
     );
-  }, [professor, professors]);
+  }, [inputValue, professors]);
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -126,6 +127,7 @@ function CheckAvailability() {
 
   const handleReset = () => {
     setProfessor('');
+    setInputValue('');
     setDay('');
     setStartTime('');
     setEndTime('');
@@ -154,9 +156,9 @@ function CheckAvailability() {
               <input
                 type="text"
                 id="professor"
-                value={professor}
+                value={inputValue}
                 onChange={(e) => {
-                  setProfessor(e.target.value);
+                  setInputValue(e.target.value);
                   setDropdownVisible(true);
                 }}
                 onFocus={() => setDropdownVisible(true)}
@@ -170,6 +172,7 @@ function CheckAvailability() {
                       key={index}
                       onClick={() => {
                         setProfessor(prof);
+                        setInputValue(prof);
                         setDropdownVisible(false);
                       }}
                       className="px-6 py-3 cursor-pointer text-white transition-all duration-200 hover:text-[#1E555C] border-l-2 border-transparent hover:border-[#1E555C]"
@@ -281,7 +284,7 @@ function CheckAvailability() {
                         fill="#4ADE80"
                       />
                     </svg>
-                    <p className="text-green-300 ml-2">{professor} is available at the selected time!</p>
+                    <p className="text-green-300 ml-2">Professor is available at the selected time!</p>
                   </>
                 ) : (
                   <div className="flex flex-col">
@@ -294,7 +297,7 @@ function CheckAvailability() {
                           fill="#F87171"
                         />
                       </svg>
-                      <p className="text-red-300 font-medium ml-2">{professor} is not available at the selected time</p>
+                      <p className="text-red-300 font-medium ml-2">Professor is not available at the selected time</p>
                     </div>
                     {availability.classes && availability.classes.length > 0 ? (
                       <ul className="mt-3 space-y-1.5">
