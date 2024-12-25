@@ -4,10 +4,13 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Lempicka Small Caps';
-  src: url('../../public/LempickaSmallCaps.ttf') format('truetype');
+  font-family: 'lempicka-smallcapsregular';
+  src: url('../../public/fonts/lempickasmallcaps-webfont.woff2') format('woff2'),
+       url('../../public/fonts/lempickasmallcaps-webfont.woff') format('woff'),
+       url('../../public/fonts/LempickaSmallCaps.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+
 }
 
 @layer base {
