@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Button = ({ children, onClick, isActive }) => {
+function Button({ children, onClick = () => {}, isActive = false }) {
   return (
     <button
       onClick={onClick}
@@ -11,6 +11,6 @@ const Button = ({ children, onClick, isActive }) => {
       <span className="text-sm font-semibold">{children}</span>
     </button>
   );
-};
+}
 
 export default Button; 
