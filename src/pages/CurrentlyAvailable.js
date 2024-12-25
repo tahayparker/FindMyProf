@@ -11,7 +11,6 @@ const CurrentlyAvailable = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        console.log('Starting to fetch professors data...');
         setLoading(true);
         setError(null);
 
@@ -20,49 +19,30 @@ const CurrentlyAvailable = () => {
         const day = now.toLocaleString('en-US', { weekday: 'long' });
         const time = now.toLocaleTimeString('en-US', { hour12: false });
 
-        console.log('Making API request to /api/professors with params:', { day, time });
         const response = await fetch(`/api/professors?day=${encodeURIComponent(day)}&time=${encodeURIComponent(time)}`, {
           method: 'GET',
           headers: {
             'Accept': 'application/json',
           },
         });
-        
-        console.log('API Response status:', response.status);
-        console.log('API Response headers:', response.headers);
 
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
 
-        console.log('Parsing response as JSON...');
         const data = await response.json();
-        console.log('Received data:', data);
-
-        setProfessors(data);
-        console.log('Successfully set professors data');
+        const filteredProfessors = data.filter(room => !room.includes('Consultation') && !room.includes('Online'));
+        setProfessors(filteredProfessors);
       } catch (err) {
-        console.error('Detailed error information:', {
-          message: err.message,
-          stack: err.stack,
-          response: err.response,
-        });
+        console.error('Error fetching professors:', err);
         setError(`Failed to load available professors: ${err.message}`);
       } finally {
-        console.log('Finishing fetch operation, setting loading to false');
         setLoading(false);
       }
     };
 
     fetchData();
-
-    // Cleanup function to handle component unmounting
-    return () => {
-      console.log('Component unmounting, cleaning up...');
-    };
   }, []);
-
-  console.log('Render state:', { loading, error, professorsCount: professors.length });
 
   return (
     <div className="min-h-screen flex flex-col page-transition">
