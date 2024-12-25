@@ -1,38 +1,36 @@
-import { useState, useEffect } from 'react';
+import React from 'react';
 
-const ProfessorsList = () => {
-  const [rooms, setRooms] = useState([]);
-  const [minWidth, setMinWidth] = useState(0);
-  const [currentTime, setCurrentTime] = useState('');
-  const [currentDay, setCurrentDay] = useState('');
+interface ProfessorsListProps {
+  professors?: string[];
+}
 
-  const fetchRooms = async () => {
+const ProfessorsList: React.FC<ProfessorsListProps> = ({ professors = [] }) => {
+  const [minWidth, setMinWidth] = React.useState(0);
+  const [currentTime, setCurrentTime] = React.useState('');
+  const [currentDay, setCurrentDay] = React.useState('');
+
+  React.useEffect(() => {
     const now = new Date();
-    const day = now.toLocaleString('en-US', { weekday: 'long' });
-    const time = now.toLocaleTimeString('en-US', { hour12: false });
-    
-    setCurrentTime(now.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', second: '2-digit' }));
+    setCurrentTime(
+      now.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', second: '2-digit' })
+    );
     setCurrentDay(now.toLocaleDateString('en-GB', { weekday: 'long' }));
 
-    const response = await fetch(`/api/professors?day=${encodeURIComponent(day)}&time=${encodeURIComponent(time)}`);
-    const data = await response.json();
-    const filteredRooms = data.filter((room: string) => !room.includes('Consultation') && !room.includes('Online'));
-    setRooms(filteredRooms);
+    if (professors.length > 0) {
+      const longestRoomName = professors.reduce((max, room) => 
+        (room.length > max.length ? room : max), ''
+      );
+      setMinWidth(longestRoomName.length * 10);
+    }
+  }, [professors]);
 
-    const longestRoomName = filteredRooms.reduce((max: string, room: string) => (room.length > max.length ? room : max), '');
-    setMinWidth(longestRoomName.length * 10);
-  };
-
-  useEffect(() => {
-    fetchRooms(); // Initial fetch
-
-    // Update every minute
-    const interval = setInterval(() => {
-      fetchRooms();
-    }, 60000);
-
-    return () => clearInterval(interval);
-  }, []);
+  if (professors.length === 0) {
+    return (
+      <div className="text-center text-gray-500">
+        No professors currently available.
+      </div>
+    );
+  }
 
   return (
     <div className="w-full flex flex-col items-center justify-start">
@@ -50,7 +48,7 @@ const ProfessorsList = () => {
             maxWidth: '960px'
           }}
         >
-          {rooms.map((room, index) => (
+          {professors.map((room, index) => (
             <li
               key={index}
               className="bg-[#00000000] text-white text-center rounded-lg shadow-lg p-3 border border-[#D69F7E] hover-scale transition-all duration-300 list-animation flex items-center justify-center whitespace-nowrap overflow-hidden"
@@ -58,7 +56,7 @@ const ProfessorsList = () => {
                 animationDelay: `${index * 0.05}s`,
                 transform: 'translateY(0)',
                 opacity: 1,
-                minWidth: 0 // Prevent flex item from overflowing
+                minWidth: 0
               }}
             >
               {room}
