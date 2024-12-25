@@ -5,9 +5,9 @@
 
 @font-face {
   font-family: 'lempicka-smallcapsregular';
-  src: url('../../public/fonts/lempickasmallcaps-webfont.woff2') format('woff2'),
-       url('../../public/fonts/lempickasmallcaps-webfont.woff') format('woff'),
-       url('../../public/fonts/LempickaSmallCaps.ttf') format('truetype');
+  src: url('./fonts/lempickasmallcaps-webfont.woff2') format('woff2'),
+       url('./fonts/lempickasmallcaps-webfont.woff') format('woff'),
+       url('./fonts/LempickaSmallCaps.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 
@@ -156,8 +156,8 @@
   }
 
   .brandname {
-    font-family: 'Lempicka Small Caps', sans-serif;
-    font-size: 3.5rem;
+    font-family: 'lempicka-smallcapsregular';
+    font-size: 4rem;
     color: #fff;
   }
 
