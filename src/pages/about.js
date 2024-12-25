@@ -1,7 +1,8 @@
+import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-const About = () => {
+function About() {
   return (
     <div className="min-h-screen flex flex-col page-transition">
       <Header />
@@ -32,9 +33,9 @@ const About = () => {
           </p>
         </section>
       </main>
-      <Footer className="mt-auto" />
+      <Footer />
     </div>
   );
-};
+}
 
 export default About;
