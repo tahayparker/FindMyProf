@@ -1,11 +1,10 @@
-'use client';
-import { useState } from 'react';
-import { useRouter } from 'next/navigation';
+import React, { useState } from 'react';
+import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Image from 'next/image';
 import Button from './Button';
 
-const Header = ({ hideLogoOnHome }) => {
+function Header({ hideLogoOnHome = false }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const router = useRouter();
   const navLinks = [
@@ -36,11 +35,9 @@ const Header = ({ hideLogoOnHome }) => {
         <div className="flex items-center justify-between h-[70px] px-4">
           <div className="flex items-center gap-4">
             {!hideLogoOnHome && (
-              <Link href="/" legacyBehavior>
-                <a className="flex items-center gap-2 relative z-[60]">
-                  <Image src="/logo.png" alt="Logo" width={112} height={112} />
-                  <span className="sr-only">Home</span>
-                </a>
+              <Link href="/" className="flex items-center gap-2 relative z-[60]">
+                <Image src="/logo.png" alt="Logo" width={112} height={112} />
+                <span className="sr-only">Home</span>
               </Link>
             )}
           </div>
@@ -71,12 +68,10 @@ const Header = ({ hideLogoOnHome }) => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-4">
             {navLinks.map((link) => (
-              <Link key={link.path} href={link.path} legacyBehavior>
-                <a>
-                  <Button isActive={router.pathname === link.path}>
-                    {link.label}
-                  </Button>
-                </a>
+              <Link key={link.path} href={link.path} className="nav-link">
+                <Button isActive={router.pathname === link.path}>
+                  {link.label}
+                </Button>
               </Link>
             ))}
           </nav>
@@ -103,20 +98,20 @@ const Header = ({ hideLogoOnHome }) => {
         >
           <div className="flex flex-col pt-20 px-4">
             {navLinks.map((link) => (
-              <Link key={link.path} href={link.path} legacyBehavior>
-                <a
-                  className={`py-3 px-4 mb-2 rounded-lg transition-all duration-200 ease-in-out text-white ${
-                    router.pathname === link.path
-                      ? 'bg-[#1E555C]/20'
-                      : 'hover:bg-[#1E555C]/10'
-                  }`}
-                  onClick={() => {
-                    setMenuOpen(false);
-                    document.body.style.overflow = 'auto';
-                  }}
-                >
-                  <span className="text-lg font-semibold">{link.label}</span>
-                </a>
+              <Link
+                key={link.path}
+                href={link.path}
+                className={`py-3 px-4 mb-2 rounded-lg transition-all duration-200 ease-in-out text-white ${
+                  router.pathname === link.path
+                    ? 'bg-[#1E555C]/20'
+                    : 'hover:bg-[#1E555C]/10'
+                }`}
+                onClick={() => {
+                  setMenuOpen(false);
+                  document.body.style.overflow = 'auto';
+                }}
+              >
+                <span className="text-lg font-semibold">{link.label}</span>
               </Link>
             ))}
           </div>
@@ -124,6 +119,6 @@ const Header = ({ hideLogoOnHome }) => {
       </header>
     </>
   );
-};
+}
 
 export default Header;
