@@ -5,6 +5,12 @@ import Footer from '../components/Footer';
 import Link from 'next/link';
 import Image from 'next/image';
 import logo from '../../public/logo.png';
+import localFont from 'next/font/local';
+
+const lempicka = localFont({
+  src: '../styles/fonts/LempickaSmallCaps.ttf',
+  variable: '--font-lempicka'
+});
 
 const Home = () => {
   useEffect(() => {
@@ -34,7 +40,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className={`min-h-screen flex flex-col ${lempicka.variable}`}>
       <Header hideLogoOnHome={true} />
       <Analytics />
       <main className="flex-grow flex items-center justify-center px-4 sm:px-6 lg:px-8">
@@ -53,7 +59,7 @@ const Home = () => {
           
           <h1 className="text-4xl font-bold mb-4 text-white transform transition-all duration-500"
               style={{ animation: 'fadeSlideIn 0.5s ease-out 0.3s both' }}>
-            Welcome to <span className="brandname bg-clip-text text-transparent bg-gradient-to-r from-[#1E555C] to-[#65C1CD]">FindMyProf</span>
+            Welcome to <span className="brandname bg-clip-text text-transparent bg-gradient-to-r from-[#1E555C] to-[#65C1CD] font-lempicka">FindMyProf</span>
           </h1>
           
           <p className="text-xl text-gray-300 mb-12"
