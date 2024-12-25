@@ -4,6 +4,11 @@ import path from 'path';
 import { parse } from 'csv-parse';
 import prisma from '../../lib/db';
 
+interface ProfessorRecord {
+  Name: string;
+  Email: string;
+}
+
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== 'POST') {
     return res.status(405).json({ success: false, message: 'Method not allowed' });
@@ -17,14 +22,17 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const csvFilePath = path.join(process.cwd(), 'public', 'professors.csv');
     const fileContent = fs.readFileSync(csvFilePath, 'utf-8');
 
-    const records: any[] = await new Promise((resolve, reject) => {
+    const records: ProfessorRecord[] = await new Promise((resolve, reject) => {
       parse(fileContent, {
         columns: false,
         trim: true,
         skip_empty_lines: true
-      }, (err, records) => {
+      }, (err, records: [string, string?][]) => {
         if (err) reject(err);
-        else resolve(records);
+        else resolve(records.map(([name, email]) => ({
+          Name: name.trim(),
+          Email: email?.trim() || ''  // Default to empty string if email is undefined
+        })));
       });
     });
 
@@ -32,10 +40,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     // Process each record and insert into database
     const professors = records
-      .filter(record => record[0] && record[0].trim()) // Filter out empty names
+      .filter(record => record.Name && record.Name.trim()) // Filter out empty names
       .map(record => ({
-        Name: record[0].trim(),
-        Email: record[1]?.trim()
+        Name: record.Name,
+        Email: record.Email
       }));
 
     // Insert all professors
