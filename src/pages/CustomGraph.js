@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
@@ -25,7 +25,7 @@ const CustomGraph = () => {
   const tableRef = useRef(null);
 
   useEffect(() => {
-    fetch('/professorSchedule.json')
+    fetch('/api/schedule')
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
@@ -80,7 +80,7 @@ const CustomGraph = () => {
             <div className="animate-spin mt-12 rounded-full h-12 w-12 border-b-2 border-[#1E555C]"></div>
           </div>
         </main>
-        <Footer className="mt-auto" />
+        <Footer />
       </div>
     );
   }
@@ -92,7 +92,7 @@ const CustomGraph = () => {
         <main className="flex-grow w-full px-4 md:px-8 mx-auto pt-20">
           <div className="text-red-500 text-center">Error loading schedule: {error}</div>
         </main>
-        <Footer className="mt-auto" />
+        <Footer />
       </div>
     );
   }
@@ -270,7 +270,7 @@ const CustomGraph = () => {
           )}
         </div>
       </main>
-      <Footer className="mt-auto" />
+      <Footer />
       <style jsx global>{`
         .hide-scrollbar {
           scrollbar-width: none;
