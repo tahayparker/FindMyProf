@@ -11,6 +11,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
+        lempicka: ['var(--font-lempicka)'],
       },
       colors: {
         background: '#0d0d0d', // Darker background color
