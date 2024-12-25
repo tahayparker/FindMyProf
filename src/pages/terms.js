@@ -16,7 +16,7 @@ const Terms = () => {
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-4 text-white">2. Availability Limitations</h2>
           <p className="text-lg mb-4 text-gray-300">
-            Professors may be unavailable even when shown as "free" due to various commitments including but not limited to:
+            Professors may be unavailable even when shown as &quot;free&quot; due to various commitments including but not limited to:
           </p>
           <ul className="list-disc list-inside text-lg mb-4 text-gray-300 ml-4">
             <li>Staff meetings and department gatherings</li>
@@ -52,7 +52,7 @@ const Terms = () => {
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-4 text-white">6. Professional Etiquette</h2>
           <p className="text-lg mb-4 text-gray-300">
-            Users are expected to maintain professional etiquette when contacting professors. This includes sending formal emails, respecting professors' time, and understanding that they are not obligated to be available during their free periods.
+            Users are expected to maintain professional etiquette when contacting professors. This includes sending formal emails, respecting professors&apos; time, and understanding that they are not obligated to be available during their free periods.
           </p>
         </section>
         <section className="mb-8">
@@ -65,6 +65,12 @@ const Terms = () => {
           <h2 className="text-2xl font-bold mb-4 text-white">8. Contact</h2>
           <p className="text-lg mb-4 text-gray-300">
             If you have any questions or concerns about these terms and conditions, please contact me.
+          </p>
+        </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-bold mb-4 text-white">9. Thank You UOWD</h2>
+          <p className="text-lg mb-4 text-gray-300">
+            Thank you UOWD for finally getting rid of the PDF timetable and switching to the <a href="https://my.uowdubai.ac.ae/timetable/viewer" className="text-[#1E555C] hover:text-[#65C1CD]" target="_blank" rel="noopener noreferrer">website</a> instead (please keep it open for non-authenticated users, otherwise this project will die &lt;/3)
           </p>
         </section>
       </main>
