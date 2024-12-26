@@ -59,7 +59,7 @@ const Home = () => {
           
           <p className="text-xl text-gray-300 mb-12"
              style={{ animation: 'fadeSlideIn 0.5s ease-out 0.5s both' }}>
-            Your ultimate guide to finding available professors in uni
+            Because consultation hours are severely limited
           </p>
           
           <div className="space-y-4 px-4 sm:px-0">
