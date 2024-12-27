@@ -1,0 +1,67 @@
+%% https://gitdiagram.com/
+
+graph TB
+    subgraph Client
+        Browser["Web Browser"]
+    end
+
+    subgraph Frontend["Frontend Layer"]
+        direction TB
+        Pages["Next.js Pages"]:::frontend
+        Components["Reusable Components"]:::frontend
+        Styles["Styling System"]:::frontend
+
+        Pages --> Components
+        Pages --> Styles
+        Components --> Styles
+    end
+
+    subgraph Backend["Backend Layer"]
+        direction TB
+        API["API Routes"]:::backend
+        DBInterface["Database Interface"]:::backend
+        Processing["Data Processing"]:::backend
+
+        API --> DBInterface
+        Processing --> DBInterface
+    end
+
+    subgraph External["External Services"]
+        direction TB
+        DB[(PostgreSQL DB)]:::database
+        MyUOWD["MyUOWD Timetable"]:::external
+        GHActions["GitHub Actions"]:::automation
+    end
+
+    Browser <--> Pages
+    Pages <--> API
+    API <--> DBInterface
+    DBInterface <--> DB
+    GHActions --> Processing
+    Processing --> MyUOWD
+    Processing --> DB
+
+    %% Component Mappings
+    click Pages "https://github.com/tahayparker/findmyprof/tree/main/src/pages/"
+    click Components "https://github.com/tahayparker/findmyprof/tree/main/src/components/"
+    click Styles "https://github.com/tahayparker/findmyprof/blob/main/src/styles/globals.css"
+    click API "https://github.com/tahayparker/findmyprof/tree/main/src/pages/api/"
+    click DBInterface "https://github.com/tahayparker/findmyprof/blob/main/src/lib/db.ts"
+    click Processing "https://github.com/tahayparker/findmyprof/tree/main/scripts/"
+    click GHActions "https://github.com/tahayparker/findmyprof/blob/main/.github/workflows/update-timetable.yml"
+
+    %% Styling Classes
+    classDef frontend fill:#3b82f6,color:#fff
+    classDef backend fill:#22c55e,color:#fff
+    classDef database fill:#eab308,color:#000
+    classDef external fill:#a855f7,color:#fff
+    classDef automation fill:#ef4444,color:#fff
+
+    %% Legend
+    subgraph Legend
+        Frontend_L["Frontend Component"]:::frontend
+        Backend_L["Backend Component"]:::backend
+        Database_L["Database"]:::database
+        External_L["External Service"]:::external
+        Automation_L["Automation"]:::automation
+    end
