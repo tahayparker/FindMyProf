@@ -54,25 +54,6 @@ def fetch_with_retry(url, max_retries=5):
             )
             time.sleep(random.uniform(5, 10))
 
-def handle_splits(row):
-    result_rows = []
-    
-    # Split rooms if semicolon exists
-    rooms = [room.strip() for room in row['Room'].split(';')] if ';' in row['Room'] else [row['Room']]
-    
-    # Split professors if semicolon exists
-    professors = [prof.strip() for prof in row['Teacher'].split(';')] if ';' in row['Teacher'] else [row['Teacher']]
-    
-    # Create cartesian product of rooms and professors
-    for room in rooms:
-        for professor in professors:
-            new_row = row.copy()
-            new_row['Room'] = room
-            new_row['Teacher'] = professor
-            result_rows.append(new_row)
-            
-    return result_rows
-
 def scrape_timetable(output_path):
     try:
         print("Fetching timetable data...")
@@ -125,11 +106,28 @@ def scrape_timetable(output_path):
                     'Room': entry['location'],
                     'Teacher': entry['lecturer']
                 }
-                rows = handle_splits(row)
-                for split_row in rows:
-                    room_code = split_row['Room'].split('-')[0].strip()
-                    split_row['Room'] = ROOMS.get(room_code, split_row['Room'])
-                    writer.writerow(split_row)
+
+                if ';' in row['Room'] or ';' in row['Teacher']:
+                    # Get all rooms and teachers
+                    rooms = row['Room'].split(';') if ';' in row['Room'] else [row['Room']]
+                    teachers = row['Teacher'].split(';') if ';' in row['Teacher'] else [row['Teacher']]
+                    
+                    # Create combinations of rooms and teachers
+                    for room in rooms:
+                        room = room.strip()
+                        room_code = room.split('-')[0].strip()
+                        room_name = ROOMS.get(room_code, room)
+                        
+                        for teacher in teachers:
+                            new_row = row.copy()
+                            new_row['Room'] = room_name
+                            new_row['Teacher'] = teacher.strip()
+                            writer.writerow(new_row)
+                else:
+                    room_code = row['Room'].split('-')[0].strip()
+                    row['Room'] = ROOMS.get(room_code, row['Room'])
+                    writer.writerow(row)
+
                 valid_entries += 1
         
         print(f"Processed {valid_entries} valid entries")
