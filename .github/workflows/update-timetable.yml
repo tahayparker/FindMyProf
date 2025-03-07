@@ -36,7 +36,10 @@ jobs:
 
       - name: Generate new timetable data
         run: python scripts/scrape_timetable.py --output public/classes.csv
-      
+        
+      - name: Delete debug files
+        run: rm -rf debug_page.html
+
       - name: Check for CSV changes
         id: check_changes
         run: |
@@ -47,9 +50,6 @@ jobs:
             echo "CSV file has changed"
             echo "csv_changed=true" >> $GITHUB_OUTPUT
           fi
-
-      - name: Delete debug files
-        run: rm -rf debug_page.html
 
       - name: Commit and push CSV changes
         if: steps.check_changes.outputs.csv_changed == 'true'
