@@ -67,7 +67,7 @@ jobs:
       - name: Check for JSON file and generate if needed
         id: check_json
         run: |
-          if [ ! -f public/scheduleData.json ] || [ "${{ steps.check_changes.outputs.csv_changed }}" == "true" ]; then
+          if [ ! -f public/professorSchedule.json ] || [ "${{ steps.check_changes.outputs.csv_changed }}" == "true" ]; then
             echo "JSON file does not exist or CSV changed, will generate it"
             echo "should_generate=true" >> $GITHUB_OUTPUT
             python scripts/generate_schedule.py
