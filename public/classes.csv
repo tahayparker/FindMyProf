@@ -71,9 +71,8 @@ BCM214,Tutorial,Tuesday,13:30,15:30,3.48-Classroom B,Mohammad Alkayyali
 BCM214,Tutorial,Thursday,10:30,12:30,6.33-Classroom B,Mohammad Alkayyali
 BCM214,Tutorial,Thursday,08:30,10:30,6.39-Classroom A,Mohammad Alkayyali
 BCM217,Lecture,Monday,08:30,10:30,4.44-Classroom B,Aaron Anderson
-BCM217,Tutorial,Thursday,12:30,14:30,5.15-MAC Lab,Daniel Chedid
-BCM217,Tutorial,Monday,11:30,13:30,5.15-MAC Lab,Daniel Chedid
-BCM217,Tutorial,Thursday,14:30,16:30,5.15-MAC Lab,Daniel Chedid
+BCM217,Tutorial,Wednesday,10:30,12:30,5.15-MAC Lab,Daniel Chedid
+BCM217,Tutorial,Friday,16:30,18:30,5.15-MAC Lab,Daniel Chedid
 BCM302,Lecture,Monday,12:30,14:30,4.51-Tutorial Room,Michael Mallory
 BCM302,Tutorial,Monday,14:30,16:30,4.51-Tutorial Room,Jad Yammine
 BCM303,Lecture,Tuesday,10:30,12:30,6.39-Classroom A,Michael Mallory
@@ -85,6 +84,7 @@ BCM312,Lecture,Thursday,11:30,13:30,5.11-Classroom B,Deborah Hardt
 BCM312,Tutorial,Thursday,14:30,16:30,6.39-Classroom A,Deborah Hardt
 BCM320,Lecture,Wednesday,10:30,12:30,5.12-Informal Classroom,Deborah Hardt
 BCM320,Tutorial,Wednesday,12:30,14:30,5.15-MAC Lab,Daniel Chedid
+BCM320,Tutorial,Friday,14:30,16:30,5.15-MAC Lab,Daniel Chedid
 BUS030,Lecture,Tuesday,14:30,16:30,5.11-Classroom B,Avneet Kaur
 BUS030,Lecture,Tuesday,14:30,16:30,6.345-Classroom A 6.34 & 6.35,Nikita Kirplani
 BUS030,Lecture,Tuesday,14:30,16:30,6.39-Classroom A,Sadaf Khurshid
@@ -216,6 +216,7 @@ CSCI388,Computer Lab,Thursday,12:30,14:30,3.47-Game Dev Lab Dual Screens,Tauqeer
 CSCI388,Computer Lab,Thursday,10:30,12:30,3.47-Game Dev Lab Dual Screens,Tauqeer Faiz
 CSCI388,Lecture,Wednesday,10:30,12:30,6.39-Classroom A,George Tsaramirsis
 CSCI388,Tutorial,Tuesday,15:30,16:30,3.48-Classroom B,Tauqeer Faiz
+CSCI388,Tutorial,Tuesday,16:30,17:30,3.48-Classroom B,Tauqeer Faiz
 CSCI435,Computer Lab,Wednesday,14:30,16:30,3.47-Game Dev Lab Dual Screens,Asma Damankesh
 CSCI435,Computer Lab,Wednesday,16:30,18:30,3.47-Game Dev Lab Dual Screens,George Tsaramirsis
 CSCI435,Computer Lab,Thursday,14:30,16:30,1.52-Computer Lab Single,George Tsaramirsis
@@ -459,7 +460,7 @@ ENGG100,Workshop B,Wednesday,12:30,14:30,4.467-Classroom A 4.46 & 4.47,Mohamed M
 ENGG100,Workshop B,Wednesday,12:30,14:30,4.467-Classroom A 4.46 & 4.47,Nejad Al Agha
 ENGG100,Workshop B,Wednesday,12:30,14:30,4.467-Classroom A 4.46 & 4.47,Yasmine Abualroos
 ENGG103,Computer Lab,Tuesday,16:30,18:30,1.53-Chemistry & Materials Science Lab,Thahsin Saidarakath
-ENGG103,Computer Lab,Monday,15:30,17:30,1.53-Chemistry & Materials Science Lab,Mohammad AlRifai
+ENGG103,Computer Lab,Wednesday,13:30,15:30,1.53-Chemistry & Materials Science Lab,Mohammad AlRifai
 ENGG103,Computer Lab,Wednesday,15:30,17:30,1.53-Chemistry & Materials Science Lab,Mahmoud Alkakuri
 ENGG103,Computer Lab,Thursday,14:30,16:30,1.53-Chemistry & Materials Science Lab,Mahmoud Alkakuri
 ENGG103,Computer Lab,Thursday,12:30,14:30,1.53-Chemistry & Materials Science Lab,Mahmoud Alkakuri
@@ -470,7 +471,7 @@ ENGG103,Computer Lab,Monday,09:30,11:30,1.53-Chemistry & Materials Science Lab,N
 ENGG103,Lecture,Thursday,12:30,14:30,6.32-Classroom B,Ciara O'Driscoll
 ENGG103,Lecture,Wednesday,09:30,11:30,4.44-Classroom B,Ciara O'Driscoll
 ENGG103,Tutorial,Monday,13:30,15:30,6.29-Multipurpose - Teaching & Research,Abdulqader Hasan
-ENGG103,Tutorial,Tuesday,08:30,10:30,6.38-Classroom B,Mohammad AlRifai
+ENGG103,Tutorial,Wednesday,10:30,12:30,3.46-Classroom A,Mohammad AlRifai
 ENGG103,Tutorial,Tuesday,11:30,13:30,5.19-Classroom A,Abdulqader Hasan
 ENGG103,Tutorial,Monday,15:30,17:30,3.48-Classroom B,Abdulqader Hasan
 ENGG103,Tutorial,Tuesday,14:30,16:30,3.42-Classroom B,Thahsin Saidarakath
@@ -703,7 +704,9 @@ MBA905,Lecture B,Sunday,09:00,17:00,4.45-Classroom B,Subhadeep Datta
 MBA907,Lecture A,Saturday,09:00,17:00,4.45-Classroom B,Mohan Guruswamy
 MBA907,Lecture B,Sunday,09:00,17:00,4.45-Classroom B,Mohan Guruswamy
 MBA911,Lecture A,Saturday,09:00,17:00,4.48-Classroom B,Faisal Rana
+MBA911,Lecture A,Saturday,09:00,17:00,4.50-Classroom B,Faisal Rana
 MBA911,Lecture B,Sunday,09:00,17:00,3.48-Classroom B,Faisal Rana
+MBA911,Lecture B,Sunday,09:00,17:00,4.50-Classroom B,Faisal Rana
 MBAS901,Lecture A,Saturday,09:00,16:00,6.345-Classroom A 6.34 & 6.35,Prithvi Bhattacharya
 MBAS901,Lecture A,Saturday,09:00,16:00,6.40-Computer Lab Single,Prithvi Bhattacharya
 MBAS901,Lecture B,Sunday,09:00,16:00,6.345-Classroom A 6.34 & 6.35,Prithvi Bhattacharya
@@ -793,8 +796,8 @@ MGNT220,Tutorial,Friday,14:30,16:30,4.50-Classroom B,Agata Jach
 MGNT220,Tutorial,Thursday,14:30,16:30,5.19-Classroom A,"TBA, 10"
 MGNT322,Lecture,Thursday,11:30,13:30,5.10-Classroom B,Sabiha Mumtaz
 MGNT322,Tutorial,Thursday,13:30,15:30,5.10-Classroom B,Sabiha Mumtaz
-MGNT341,Lecture,Friday,08:30,10:30,3.44-Classroom B,Greig Taylor
-MGNT341,Tutorial,Friday,10:30,12:30,3.46-Classroom A,Greig Taylor
+MGNT341,Lecture,Friday,08:30,10:30,6.32-Classroom B,Greig Taylor
+MGNT341,Tutorial,Friday,10:30,12:30,6.32-Classroom B,Greig Taylor
 MGNT341,Tutorial,Friday,10:30,12:30,5.18-Classroom A,"TBA, 1"
 MGNT341,Tutorial,Tuesday,15:30,17:30,5.18-Classroom A,"TBA, 1"
 MGNT803,Lecture,Wednesday,18:00,22:00,3.46-Classroom A,Sabiha Mumtaz
@@ -871,11 +874,12 @@ STAT040,Workshop,Thursday,10:30,12:30,5.12-Informal Classroom,Baharek Tajali
 STAT040,Workshop,Thursday,14:30,16:30,5.18-Classroom A,Baharek Tajali
 STAT040,Workshop,Friday,08:30,10:30,5.17-Classroom VC,Baharek Tajali
 STAT040,Workshop,Friday,10:30,12:30,5.17-Classroom VC,Baharek Tajali
-VCD101,Lecture,Tuesday,14:30,16:30,5.15-MAC Lab,Noor Yusoff
-VCD101,Tutorial,Wednesday,08:30,10:30,5.15-MAC Lab,Samira Sobeih
+VCD101,Lecture,Monday,14:30,16:30,3.44-Classroom B,Noor Yusoff
+VCD101,Tutorial,Tuesday,12:30,14:30,5.15-MAC Lab,Samira Sobeih
+VCD101,Tutorial,Thursday,12:30,14:30,5.15-MAC Lab,Samira Sobeih
 VCD203,Lecture,Tuesday,10:30,12:30,5.15-MAC Lab,Ludmil Trenkov
 VCD203,Lecture,Monday,15:30,17:30,5.15-MAC Lab,Ludmil Trenkov
-VCD203,Tutorial,Wednesday,10:30,12:30,5.15-MAC Lab,
-VCD203,Tutorial,Thursday,08:30,10:30,5.15-MAC Lab,
+VCD203,Tutorial,Thursday,14:30,16:30,5.15-MAC Lab,
+VCD203,Tutorial,Tuesday,14:30,16:30,5.15-MAC Lab,
 VCD390,Lecture,Monday,08:30,10:30,4.467-Classroom A 4.46 & 4.47,Noor Yusoff
 VCD390,Tutorial,Tuesday,08:30,10:30,5.15-MAC Lab,Samira Sobeih
