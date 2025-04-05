@@ -4,6 +4,7 @@ ACCY121,Lecture,Friday,14:30,16:30,0.17-Lecture Theatre,Khairul Kamarudin
 ACCY121,Tutorial,Wednesday,13:30,15:30,4.48-Classroom B,Yusra Ghani
 ACCY121,Tutorial,Wednesday,15:30,17:30,3.42-Classroom B,Yusra Ghani
 ACCY121,Tutorial,Friday,10:30,12:30,4.50-Classroom B,"TBA, 2"
+ACCY121,Tutorial,Friday,08:30,10:30,5.18-Classroom A,"TBA, 2"
 ACCY121,Tutorial,Friday,08:30,10:30,5.10-Classroom B,Bhumika Gambhir
 ACCY121,Tutorial,Wednesday,09:30,11:30,5.19-Classroom A,Avneet Kaur
 ACCY121,Tutorial,Wednesday,12:30,14:30,3.46-Classroom A,Avneet Kaur
@@ -29,7 +30,7 @@ ACCY231,Tutorial,Thursday,08:30,10:30,4.42-Computer Lab (Single Screen),Adjunct 
 ACCY231,Tutorial,Thursday,12:30,14:30,6.40-Computer Lab Single,Muhabie Mengistu
 ACCY231,Tutorial,Friday,08:30,10:30,1.52-Computer Lab Single,Adjunct Accy A
 ACCY231,Tutorial,Monday,12:30,14:30,2.50-Computer Lab Single,Adjunct Accy A
-ACCY342,Lecture,Tuesday,12:30,14:30,3.44-Classroom B,Muhabie Mengistu
+ACCY342,Lecture,Tuesday,12:30,14:30,4.467-Classroom A 4.46 & 4.47,Muhabie Mengistu
 ACCY342,Tutorial,Thursday,10:30,12:30,3.42-Classroom B,Muhabie Mengistu
 ACCY342,Tutorial,Wednesday,08:30,10:30,6.39-Classroom A,Marryam Yasir
 ARA101,Tutorial A,Monday,11:30,13:30,4.50-Classroom B,Nancy El Sobkey
@@ -59,7 +60,7 @@ BCM111,Tutorial,Tuesday,13:30,15:30,6.29-Multipurpose - Teaching & Research,Roaa
 BCM111,Tutorial,Tuesday,15:30,17:30,6.29-Multipurpose - Teaching & Research,Roaa Ataya
 BCM111,Tutorial,Thursday,12:30,14:30,3.42-Classroom B,Roaa Ataya
 BCM111,Tutorial,Thursday,14:30,16:30,5.17-Classroom VC,Roaa Ataya
-BCM212,Lecture,Monday,10:30,12:30,0.17-Lecture Theatre,Michael Mallory
+BCM212,Lecture,Monday,10:30,12:30,6.32-Classroom B,Michael Mallory
 BCM212,Tutorial,Wednesday,12:30,14:30,6.38-Classroom B,Rahaf Nassif
 BCM212,Tutorial,Tuesday,08:30,10:30,3.42-Classroom B,Rahaf Nassif
 BCM212,Tutorial,Monday,13:30,15:30,6.32-Classroom B,Elizaveta Vartanian
@@ -94,12 +95,13 @@ BUS030,Tutorial,Wednesday,08:30,10:30,6.38-Classroom B,Lobna Mansour
 BUS030,Tutorial,Thursday,14:30,16:30,6.33-Classroom B,Lobna Mansour
 BUS030,Tutorial,Wednesday,08:30,10:30,4.45-Classroom B,Donia Rawashdeh
 BUS030,Tutorial,Thursday,14:30,16:30,3.42-Classroom B,Donia Rawashdeh
-BUS121,Lecture,Monday,10:30,12:30,6.32-Classroom B,Noor Rizvi
+BUS121,Lecture,Monday,10:30,12:30,0.17-Lecture Theatre,Noor Rizvi
 BUS121,Lecture,Tuesday,10:30,12:30,6.32-Classroom B,Noor Rizvi
 BUS121,Lecture,Tuesday,08:30,10:30,6.345-Classroom A 6.34 & 6.35,Noor Rizvi
 BUS121,Tutorial,Wednesday,11:30,13:30,5.10-Classroom B,Nikita Kirplani
 BUS121,Tutorial,Monday,15:30,17:30,4.52-Classroom A,Sabreen Wahbeh
 BUS121,Tutorial,Tuesday,15:30,17:30,4.51-Tutorial Room,Sabreen Wahbeh
+BUS121,Tutorial,Wednesday,13:30,15:30,3.42-Classroom B,Nikita Kirplani
 BUS121,Tutorial,Monday,13:30,15:30,4.45-Classroom B,Sabreen Wahbeh
 BUS121,Tutorial,Tuesday,13:30,15:30,4.51-Tutorial Room,Sabreen Wahbeh
 BUS121,Tutorial,Monday,14:30,16:30,6.33-Classroom B,Ayush Mishra
@@ -189,7 +191,7 @@ CSCI323,Computer Lab,Friday,10:30,12:30,5.15-MAC Lab,Abdullah El Nokiti
 CSCI323,Computer Lab,Thursday,08:30,10:30,3.47-Game Dev Lab Dual Screens,Abdullah El Nokiti
 CSCI323,Computer Lab,Thursday,12:30,14:30,1.52-Computer Lab Single,Abdullah El Nokiti
 CSCI323,Computer Lab,Thursday,14:30,16:30,6.40-Computer Lab Single,Abdullah El Nokiti
-CSCI323,Lecture A,Tuesday,14:30,16:30,3.44-Classroom B,Patrick Mukala
+CSCI323,Lecture A,Tuesday,14:30,16:30,4.467-Classroom A 4.46 & 4.47,Patrick Mukala
 CSCI323,Lecture A,Tuesday,16:30,18:30,5.134-Classroom A 5.13 & 5.14,Patrick Mukala
 CSCI323,Lecture B,Wednesday,11:30,13:30,5.134-Classroom A 5.13 & 5.14,Patrick Mukala
 CSCI323,Lecture B,Wednesday,14:30,16:30,3.44-Classroom B,Patrick Mukala
@@ -286,7 +288,7 @@ CSIT128,Lecture,Monday,10:30,12:30,4.44-Classroom B,Soly Mathew
 CSIT128,Lecture,Tuesday,08:30,10:30,4.44-Classroom B,Soly Mathew
 CSIT128,Tutorial,Wednesday,15:30,16:30,3.45-Classroom B,Tauqeer Faiz
 CSIT128,Tutorial,Monday,16:30,17:30,5.12-Informal Classroom,Tauqeer Faiz
-CSIT128,Tutorial,Wednesday,13:30,14:30,3.42-Classroom B,Tauqeer Faiz
+CSIT128,Tutorial,Wednesday,13:30,14:30,5.134-Classroom A 5.13 & 5.14,Tauqeer Faiz
 CSIT128,Tutorial,Monday,16:30,17:30,6.33-Classroom B,Sara Majeed
 CSIT128,Tutorial,Wednesday,13:30,14:30,5.10-Classroom B,Sara Majeed
 CSIT128,Tutorial,Monday,14:30,15:30,6.38-Classroom B,Sara Majeed
@@ -347,8 +349,8 @@ CSIT321,Lecture A,Tuesday,13:30,15:30,4.44-Classroom B,Farhad Oroumchian
 CSIT321,Lecture A,Monday,16:30,18:30,3.44-Classroom B,Patrick Mukala
 CSIT321,Lecture B,Friday,10:30,12:30,3.44-Classroom B,Farhad Oroumchian
 CSIT321,Lecture B,Wednesday,16:30,18:30,3.44-Classroom B,Patrick Mukala
-ECON253,Lecture,Tuesday,14:30,16:30,4.467-Classroom A 4.46 & 4.47,Ziang Wang
-ECON253,Lecture,Tuesday,12:30,14:30,4.467-Classroom A 4.46 & 4.47,Ziang Wang
+ECON253,Lecture,Tuesday,14:30,16:30,3.44-Classroom B,Ziang Wang
+ECON253,Lecture,Tuesday,12:30,14:30,3.44-Classroom B,Ziang Wang
 ECON253,Tutorial,Tuesday,16:30,18:30,6.40-Computer Lab Single,
 ECON253,Tutorial,Friday,08:30,10:30,6.40-Computer Lab Single,Nada Tchantchane
 ECON253,Tutorial,Friday,10:30,12:30,6.40-Computer Lab Single,Nada Tchantchane
@@ -705,7 +707,7 @@ MBA907,Lecture A,Saturday,09:00,17:00,4.45-Classroom B,Mohan Guruswamy
 MBA907,Lecture B,Sunday,09:00,17:00,4.45-Classroom B,Mohan Guruswamy
 MBA911,Lecture A,Saturday,09:00,17:00,4.48-Classroom B,Faisal Rana
 MBA911,Lecture A,Saturday,09:00,17:00,4.50-Classroom B,Faisal Rana
-MBA911,Lecture B,Sunday,09:00,17:00,3.48-Classroom B,Faisal Rana
+MBA911,Lecture B,Sunday,09:00,17:00,4.48-Classroom B,Faisal Rana
 MBA911,Lecture B,Sunday,09:00,17:00,4.50-Classroom B,Faisal Rana
 MBAS901,Lecture A,Saturday,09:00,16:00,6.345-Classroom A 6.34 & 6.35,Prithvi Bhattacharya
 MBAS901,Lecture A,Saturday,09:00,16:00,6.40-Computer Lab Single,Prithvi Bhattacharya
@@ -829,8 +831,10 @@ OPS350,Lecture,Tuesday,13:30,15:30,3.46-Classroom A,Flevy Lasrado
 OPS350,Tutorial,Tuesday,15:30,17:30,3.46-Classroom A,Flevy Lasrado
 OPS802,Lecture,Thursday,18:00,22:00,4.45-Classroom B,Lina Gharaibeh
 OPS908,Lecture,Monday,18:00,22:00,5.11-Classroom B,Balan Sundarkani
+OPS908,Lecture,Wednesday,18:00,22:00,4.48-Classroom B,Balan Sundarkani
 OPS922,Lecture,Tuesday,18:00,22:00,4.50-Classroom B,Balan Sundarkani
 OPS935,Lecture,Wednesday,18:00,22:00,4.45-Classroom B,Lina Gharaibeh
+OPS935,Lecture,Friday,18:00,22:00,4.48-Classroom B,Lina Gharaibeh
 PHY040,Computer Lab,Tuesday,08:30,10:30,3.53-Physics/Robotics Lab,Baharek Tajali
 PHY040,Lecture,Friday,14:30,16:30,6.28-Seminar/Tutorial,Hazem Gouda
 PHYS143,Computer Lab,Friday,10:00,12:00,3.53-Physics/Robotics Lab,Sana Sahir
@@ -875,11 +879,11 @@ STAT040,Workshop,Thursday,14:30,16:30,5.18-Classroom A,Baharek Tajali
 STAT040,Workshop,Friday,08:30,10:30,5.17-Classroom VC,Baharek Tajali
 STAT040,Workshop,Friday,10:30,12:30,5.17-Classroom VC,Baharek Tajali
 VCD101,Lecture,Monday,14:30,16:30,3.44-Classroom B,Noor Yusoff
-VCD101,Tutorial,Tuesday,12:30,14:30,5.15-MAC Lab,Samira Sobeih
-VCD101,Tutorial,Thursday,12:30,14:30,5.15-MAC Lab,Samira Sobeih
+VCD101,Tutorial,Tuesday,16:30,18:30,5.15-MAC Lab,Mirna Kamel
+VCD101,Tutorial,Thursday,12:30,14:30,5.15-MAC Lab,Mirna Kamel
 VCD203,Lecture,Tuesday,10:30,12:30,5.15-MAC Lab,Ludmil Trenkov
 VCD203,Lecture,Monday,15:30,17:30,5.15-MAC Lab,Ludmil Trenkov
-VCD203,Tutorial,Thursday,14:30,16:30,5.15-MAC Lab,
-VCD203,Tutorial,Tuesday,14:30,16:30,5.15-MAC Lab,
+VCD203,Tutorial,Thursday,14:30,16:30,5.15-MAC Lab,Mirna Kamel
+VCD203,Tutorial,Tuesday,14:30,16:30,5.15-MAC Lab,Mirna Kamel
 VCD390,Lecture,Monday,08:30,10:30,4.467-Classroom A 4.46 & 4.47,Noor Yusoff
 VCD390,Tutorial,Tuesday,08:30,10:30,5.15-MAC Lab,Samira Sobeih
