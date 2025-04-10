@@ -341,8 +341,8 @@ ECON253,Lecture,Tuesday,12:30,14:30,3.44-Classroom B,Ziang Wang
 ECON253,Tutorial,Tuesday,16:30,18:30,6.40-Computer Lab Single,
 ECON253,Tutorial,Friday,08:30,10:30,6.40-Computer Lab Single,Nada Tchantchane
 ECON253,Tutorial,Friday,10:30,12:30,6.40-Computer Lab Single,Nada Tchantchane
-ECON253,Tutorial,Monday,08:30,10:30,4.42-Computer Lab (Single Screen),"TBA, 4"
-ECON253,Tutorial,Monday,10:30,12:30,4.42-Computer Lab (Single Screen),"TBA, 4"
+ECON253,Tutorial,Monday,08:30,10:30,3.47-Game Dev Lab Dual Screens,"TBA, 4"
+ECON253,Tutorial,Monday,10:30,12:30,3.47-Game Dev Lab Dual Screens,"TBA, 4"
 ECON253,Tutorial,Monday,16:30,18:30,4.42-Computer Lab (Single Screen),"TBA, 9"
 ECON253,Tutorial,Friday,16:30,18:30,1.52-Computer Lab Single,"TBA, 9"
 ECON253,Tutorial,Friday,16:30,18:30,4.42-Computer Lab (Single Screen),"TBA, 4"
@@ -359,7 +359,7 @@ ECTE203,Lecture,Monday,08:30,11:30,4.467-Classroom A 4.46 & 4.47,Abeer El Khouly
 ECTE203,Lecture,Tuesday,08:30,11:30,5.19-Classroom A,Obada Al Khatib
 ECTE203,Tutorial,Monday,11:30,13:30,5.10-Classroom B,Abeer El Khouly
 ECTE203,Tutorial,Tuesday,14:30,16:30,3.45-Classroom B,Abeer El Khouly
-ECTE203,Tutorial,Tuesday,11:30,13:30,5.10-Classroom B,Mary George
+ECTE203,Tutorial,Tuesday,11:30,13:30,5.10-Classroom B,Abeer El Khouly
 ECTE203,Tutorial,Tuesday,08:30,10:30,4.52-Classroom A,Sana Sahir
 ECTE203,Tutorial,Tuesday,14:30,16:30,5.12-Informal Classroom,Mary George
 ECTE203,Tutorial,Monday,12:30,14:30,5.18-Classroom A,Sana Sahir
@@ -385,12 +385,12 @@ ECTE331,Computer Lab,Tuesday,16:30,18:30,4.42-Computer Lab (Single Screen),Kiyan
 ECTE331,Computer Lab,Wednesday,12:30,14:30,1.52-Computer Lab Single,Kiyan Afsari
 ECTE331,Lecture\Tutorial,Tuesday,09:30,12:30,5.18-Classroom A,Abdsamad Benkrid
 ECTE331,Tutorial,Tuesday,12:30,13:30,3.48-Classroom B,Abdsamad Benkrid
-ECTE331,Tutorial,Tuesday,12:30,13:30,4.44-Classroom B,Kiyan Afsari
+ECTE331,Tutorial,Tuesday,12:30,13:30,5.18-Classroom A,Kiyan Afsari
 ECTE351,Computer Lab,Monday,13:30,15:30,2.51-Project Lab,Kiyan Afsari
 ECTE351,Lecture,Friday,14:30,16:30,5.19-Classroom A,Haile Rajamani
 ECTE351,Tutorial,Friday,16:30,18:30,5.19-Classroom A,Haile Rajamani
 ECTE363,Computer Lab,Wednesday,09:30,12:30,4.42-Computer Lab (Single Screen),Ayesha Qureshi
-ECTE363,Computer Lab,Wednesday,15:30,18:30,4.42-Computer Lab (Single Screen),Ayesha Qureshi
+ECTE363,Computer Lab,Monday,09:30,12:30,4.42-Computer Lab (Single Screen),Ayesha Qureshi
 ECTE363,Lecture,Wednesday,15:30,17:30,4.44-Classroom B,Obada Al Khatib
 ECTE363,Tutorial,Thursday,14:30,16:30,6.30-Multipurpose - Teaching & Research,Ashna Sreejith
 ECTE363,Tutorial,Friday,10:30,12:30,5.10-Classroom B,Ashna Sreejith
@@ -475,7 +475,7 @@ ENGG103,Tutorial,Monday,13:30,15:30,4.50-Classroom B,Mohammad AlRifai
 ENGG103,Tutorial,Monday,10:30,12:30,5.18-Classroom A,Mohammad Yousuf
 ENGG103,Tutorial,Tuesday,13:30,15:30,6.28-Seminar/Tutorial,Mohammad Yousuf
 ENGG104,Computer Lab,Wednesday,08:30,10:30,1.38-Circuits Lab,Razveen Kashif
-ENGG104,Computer Lab,Tuesday,08:30,10:30,1.38-Circuits Lab,Razveen Kashif
+ENGG104,Computer Lab,Thursday,14:30,16:30,1.38-Circuits Lab,Nayab Nadeem
 ENGG104,Computer Lab,Monday,14:30,16:30,1.38-Circuits Lab,Nayab Nadeem
 ENGG104,Workshop A,Monday,08:30,10:30,5.19-Classroom A,Mohamed Malek
 ENGG104,Workshop B,Monday,10:30,12:30,5.19-Classroom A,Sana Sahir
@@ -682,9 +682,9 @@ MATH030,Workshop,Thursday,12:30,14:30,3.48-Classroom B,Sara Abdelaziz
 MATH030,Workshop,Thursday,14:30,16:30,4.51-Tutorial Room,Sara Abdelaziz
 MATH042,Lecture,Wednesday,14:30,16:30,5.08-Seminar / Tutorial,Abeer El Khouly
 MATH042,Workshop,Thursday,14:30,16:30,5.08-Seminar / Tutorial,Abeer El Khouly
-MATH043,Lecture,Wednesday,09:30,11:30,5.11-Classroom B,Nawar Al Hakeem
-MATH043,Workshop,Wednesday,12:30,14:30,4.52-Classroom A,Sara Abdelaziz
-MATH043,Workshop,Friday,10:30,12:30,4.45-Classroom B,Sara Abdelaziz
+MATH043,Lecture,Wednesday,09:30,11:30,5.11-Classroom B,Sara Abdelaziz
+MATH043,Workshop,Wednesday,12:30,14:30,4.52-Classroom A,Faibin Poyil
+MATH043,Workshop,Friday,10:30,12:30,4.45-Classroom B,Faibin Poyil
 MATH142,Lecture A,Thursday,08:30,10:30,5.134-Classroom A 5.13 & 5.14,Assane Lo
 MATH142,Lecture A,Monday,08:30,10:30,6.39-Classroom A,Assane Lo
 MATH142,Lecture B,Friday,08:30,10:30,5.19-Classroom A,Assane Lo
@@ -849,8 +849,8 @@ PHYS143,Computer Lab,Wednesday,13:30,15:30,3.53-Physics/Robotics Lab,Habiba Ahme
 PHYS143,Computer Lab,Thursday,14:30,16:30,3.53-Physics/Robotics Lab,Habiba Ahmed
 PHYS143,Computer Lab,Monday,16:30,18:30,3.53-Physics/Robotics Lab,Eva Barbulescu
 PHYS143,Computer Lab,Monday,14:30,16:30,3.53-Physics/Robotics Lab,Eva Barbulescu
-PHYS143,Lecture A,Tuesday,16:30,18:30,4.467-Classroom A 4.46 & 4.47,Obada Al Khatib
-PHYS143,Lecture A,Tuesday,16:30,18:30,4.467-Classroom A 4.46 & 4.47,Abeer El Khouly
+PHYS143,Lecture A,Tuesday,16:30,18:30,3.44-Classroom B,Mervat Madi
+PHYS143,Lecture A,Tuesday,16:30,18:30,3.44-Classroom B,Obada Al Khatib
 PHYS143,Lecture B,Wednesday,12:30,14:30,3.44-Classroom B,Obada Al Khatib
 PHYS143,Lecture B,Wednesday,12:30,14:30,3.44-Classroom B,Abeer El Khouly
 PHYS143,Tutorial,Wednesday,14:30,16:30,6.38-Classroom B,Mary George
