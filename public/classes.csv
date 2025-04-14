@@ -2,7 +2,7 @@ SubCode,Class,Day,StartTime,EndTime,Room,Teacher
 ACCY121,Lecture,Wednesday,16:30,18:30,0.17-Lecture Theatre,Khairul Kamarudin
 ACCY121,Lecture,Friday,14:30,16:30,0.17-Lecture Theatre,Khairul Kamarudin
 ACCY121,Tutorial,Wednesday,13:30,15:30,4.48-Classroom B,Yusra Ghani
-ACCY121,Tutorial,Wednesday,15:30,17:30,3.42-Classroom B,Yusra Ghani
+ACCY121,Tutorial,Wednesday,15:30,17:30,5.18-Classroom A,Yusra Ghani
 ACCY121,Tutorial,Friday,10:30,12:30,4.50-Classroom B,"TBA, 2"
 ACCY121,Tutorial,Friday,08:30,10:30,5.18-Classroom A,"TBA, 2"
 ACCY121,Tutorial,Friday,08:30,10:30,5.10-Classroom B,Bhumika Gambhir
@@ -102,7 +102,7 @@ BUS030,Tutorial,Thursday,14:30,16:30,3.42-Classroom B,Donia Rawashdeh
 BUS121,Lecture,Monday,10:30,12:30,0.17-Lecture Theatre,Noor Rizvi
 BUS121,Lecture,Tuesday,10:30,12:30,6.32-Classroom B,Noor Rizvi
 BUS121,Lecture,Tuesday,08:30,10:30,6.345-Classroom A 6.34 & 6.35,Noor Rizvi
-BUS121,Tutorial,Wednesday,11:30,13:30,5.10-Classroom B,Nikita Kirplani
+BUS121,Tutorial,Wednesday,11:30,13:30,3.42-Classroom B,Nikita Kirplani
 BUS121,Tutorial,Monday,15:30,17:30,4.52-Classroom A,Sabreen Wahbeh
 BUS121,Tutorial,Tuesday,15:30,17:30,4.51-Tutorial Room,Sabreen Wahbeh
 BUS121,Tutorial,Wednesday,13:30,15:30,3.42-Classroom B,Nikita Kirplani
@@ -659,7 +659,7 @@ LANG040,Tutorial A,Wednesday,12:30,14:30,4.50-Classroom B,Ajrina Hysaj
 LANG040,Tutorial A,Tuesday,13:30,15:30,5.17-Classroom VC,Nicola Sabry
 LANG040,Tutorial A,Monday,14:30,16:30,4.44-Classroom B,Sonia Adams
 LANG040,Tutorial B,Monday,09:30,11:30,4.50-Classroom B,Ajrina Hysaj
-LANG040,Tutorial B,Wednesday,11:30,13:30,3.42-Classroom B,Nicola Sabry
+LANG040,Tutorial B,Wednesday,11:30,13:30,5.10-Classroom B,Nicola Sabry
 LANG040,Tutorial B,Wednesday,10:30,12:30,6.38-Classroom B,Sonia Adams
 MARK230,Lecture,Monday,10:30,12:30,6.345-Classroom A 6.34 & 6.35,Sourjo Mukherjee
 MARK230,Tutorial,Monday,14:30,16:30,4.467-Classroom A 4.46 & 4.47,Sourjo Mukherjee
@@ -686,6 +686,7 @@ MATH030,Workshop,Friday,08:30,10:30,3.46-Classroom A,Sara Abdelaziz
 MATH030,Workshop,Thursday,12:30,14:30,3.48-Classroom B,Sara Abdelaziz
 MATH030,Workshop,Thursday,14:30,16:30,4.51-Tutorial Room,Sara Abdelaziz
 MATH030,Workshop,Friday,10:30,12:30,3.46-Classroom A,Sara Abdelaziz
+MATH030,Workshop,Friday,14:30,16:30,6.38-Classroom B,Baharek Tajali
 MATH042,Lecture,Wednesday,14:30,16:30,5.08-Seminar / Tutorial,Abeer El Khouly
 MATH042,Workshop,Thursday,14:30,16:30,5.08-Seminar / Tutorial,Abeer El Khouly
 MATH043,Lecture,Wednesday,09:30,11:30,5.11-Classroom B,Sara Abdelaziz
@@ -714,6 +715,7 @@ MBA905,Lecture A,Saturday,09:00,17:00,4.45-Classroom B,Subhadeep Datta
 MBA905,Lecture B,Sunday,09:00,17:00,4.45-Classroom B,Subhadeep Datta
 MBA907,Lecture A,Saturday,09:00,17:00,4.45-Classroom B,Mohan Guruswamy
 MBA907,Lecture B,Sunday,09:00,17:00,4.45-Classroom B,Mohan Guruswamy
+MBA908,Lecture,Monday,18:00,22:00,3.46-Classroom A,Arijit Sikdar
 MBA911,Lecture A,Saturday,09:00,17:00,4.48-Classroom B,Faisal Rana
 MBA911,Lecture A,Saturday,09:00,17:00,4.50-Classroom B,Faisal Rana
 MBA911,Lecture B,Sunday,09:00,17:00,4.48-Classroom B,Faisal Rana
@@ -873,6 +875,7 @@ PUBH115,Tutorial,Thursday,10:30,12:30,4.48-Classroom B,Noor Suwwan
 PUBH115,Tutorial,Thursday,12:30,14:30,5.17-Classroom VC,Noor Suwwan
 PUBH115,Tutorial,Monday,12:30,14:30,4.467-Classroom A 4.46 & 4.47,Amina Khan
 PUBH115,Tutorial,Friday,08:30,10:30,4.50-Classroom B,Noor Suwwan
+PUBH115,Tutorial,Monday,09:30,11:30,5.17-Classroom VC,Amina Khan
 PVT000,Tutorial A,Monday,13:30,16:30,5.08-Seminar / Tutorial,Hortence Kenswil
 PVT000,Tutorial B,Tuesday,13:30,16:30,5.08-Seminar / Tutorial,Alison Webster
 PVT000,Tutorial C,Thursday,13:30,16:30,4.53-Seminar/Tutorial,Magdalena Halim
