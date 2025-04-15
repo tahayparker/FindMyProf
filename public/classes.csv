@@ -128,11 +128,14 @@ BUS980,Lecture,Friday,18:00,22:00,6.30-Multipurpose - Teaching & Research,Khairu
 CIVL201,Computer Lab,Thursday,13:30,14:30,2.50-Computer Lab Single,Thahsin Saidarakath
 CIVL201,Lecture,Thursday,08:30,11:30,0.201-Concrete / Geo Tech Lab,Kamal Jaafar
 CIVL201,Tutorial,Thursday,11:30,12:30,6.36-Computer Lab (Single Screen),Kamal Jaafar
+CIVL245,Computer Lab,Tuesday,14:30,16:30,0.201-Concrete / Geo Tech Lab,Karol Sikora
 CIVL245,Computer Lab,Tuesday,14:30,16:30,0.201-Concrete / Geo Tech Lab,Mohammad AlRifai
 CIVL245,Computer Lab,Tuesday,12:30,14:30,0.201-Concrete / Geo Tech Lab,Mohammad AlRifai
 CIVL245,Lecture,Monday,08:30,12:30,3.46-Classroom A,Karol Sikora
-CIVL245,Tutorial,Tuesday,12:30,14:30,5.12-Informal Classroom,Karol Sikora
-CIVL245,Tutorial,Tuesday,10:30,12:30,4.44-Classroom B,Karol Sikora
+CIVL245,Tutorial/Lab,Tuesday,12:30,14:30,0.201-Concrete / Geo Tech Lab,Karol Sikora
+CIVL245,Tutorial/Lab,Tuesday,12:30,14:30,0.201-Concrete / Geo Tech Lab,Mohammad AlRifai
+CIVL245,Tutorial/Lab,Tuesday,10:30,12:30,0.201-Concrete / Geo Tech Lab,Karol Sikora
+CIVL245,Tutorial/Lab,Tuesday,10:30,12:30,0.201-Concrete / Geo Tech Lab,Mohammad AlRifai
 CIVL458,Lecture,Wednesday,18:00,20:00,6.33-Classroom B,Kamal Jaafar
 CIVL458,Lecture,Wednesday,18:00,20:00,6.33-Classroom B,Sana Amir
 CIVL458,Tutorial/Lab,Wednesday,15:30,17:30,2.51-Project Lab,Sana Amir
