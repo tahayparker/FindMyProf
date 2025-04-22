@@ -117,7 +117,7 @@ BUS121,Tutorial,Tuesday,14:30,16:30,6.38-Classroom B,Shehnaz Al-Helo
 BUS121,Tutorial,Thursday,12:30,14:30,4.52-Classroom A,Nada Tchantchane
 BUS121,Tutorial,Thursday,14:30,16:30,4.52-Classroom A,Nada Tchantchane
 BUS200,Lecture,Monday,12:30,14:30,5.11-Classroom B,Mohan Guruswamy
-BUS200,Tutorial,Monday,14:30,16:30,6.28-Seminar/Tutorial,Nazanin Tahsili
+BUS200,Tutorial,Monday,14:30,16:30,5.10-Classroom B,Nazanin Tahsili
 BUS200,Tutorial,Tuesday,14:30,16:30,4.52-Classroom A,Nazanin Tahsili
 BUS200,Tutorial,Tuesday,16:30,18:30,4.52-Classroom A,Nazanin Tahsili
 BUS331,Lecture,Tuesday,08:30,10:30,5.11-Classroom B,Jaeyoung Cho
@@ -404,7 +404,7 @@ ECTE433,Computer Lab,Thursday,12:30,14:30,3.52-Computer Lab (Network),Ashna Sree
 ECTE433,Workshop,Wednesday,09:30,13:30,3.45-Classroom B,Abdsamad Benkrid
 ECTE465,Computer Lab,Monday,16:30,18:30,3.52-Computer Lab (Network),Ayesha Qureshi
 ECTE465,Lecture,Thursday,14:30,16:30,5.134-Classroom A 5.13 & 5.14,Mohamed Malek
-ECTE465,Tutorial,Monday,14:30,16:30,5.10-Classroom B,Abeer El Khouly
+ECTE465,Tutorial,Monday,14:30,16:30,6.28-Seminar/Tutorial,Abeer El Khouly
 ECTE469,Computer Lab A,Tuesday,08:30,09:30,2.50-Computer Lab Single,Ashna Sreejith
 ECTE469,Computer Lab B,Friday,08:30,10:30,1.38-Circuits Lab,Ashna Sreejith
 ECTE469,Workshop A,Tuesday,14:30,16:30,6.29-Multipurpose - Teaching & Research,Abdsamad Benkrid
@@ -807,7 +807,7 @@ MGNT210,Tutorial,Tuesday,10:30,12:30,6.38-Classroom B,Mahshid Baghestani
 MGNT210,Tutorial,Tuesday,14:30,16:30,4.45-Classroom B,Amna Moeen
 MGNT210,Tutorial,Thursday,08:30,10:30,3.46-Classroom A,Odelia Mathews
 MGNT220,Lecture,Monday,09:30,11:30,5.134-Classroom A 5.13 & 5.14,Sadaf Khurshid
-MGNT220,Lecture,Monday,12:30,14:30,5.19-Classroom A,Sadaf Khurshid
+MGNT220,Lecture,Monday,12:30,14:30,4.467-Classroom A 4.46 & 4.47,Sadaf Khurshid
 MGNT220,Tutorial,Monday,14:30,16:30,5.19-Classroom A,Sadaf Khurshid
 MGNT220,Tutorial,Friday,08:30,10:30,6.33-Classroom B,Agata Jach
 MGNT220,Tutorial,Friday,10:30,12:30,6.33-Classroom B,Agata Jach
@@ -878,7 +878,7 @@ PUBH115,Tutorial,Thursday,10:30,12:30,3.46-Classroom A,Amina Khan
 PUBH115,Tutorial,Thursday,12:30,14:30,3.46-Classroom A,Amina Khan
 PUBH115,Tutorial,Thursday,10:30,12:30,4.48-Classroom B,Noor Suwwan
 PUBH115,Tutorial,Thursday,12:30,14:30,5.17-Classroom VC,Noor Suwwan
-PUBH115,Tutorial,Monday,12:30,14:30,4.467-Classroom A 4.46 & 4.47,Amina Khan
+PUBH115,Tutorial,Monday,12:30,14:30,5.19-Classroom A,Amina Khan
 PUBH115,Tutorial,Friday,08:30,10:30,4.50-Classroom B,Noor Suwwan
 PUBH115,Tutorial,Monday,09:30,11:30,5.17-Classroom VC,Amina Khan
 PVT000,Tutorial A,Monday,13:30,16:30,5.08-Seminar / Tutorial,Hortence Kenswil
