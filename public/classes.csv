@@ -54,6 +54,7 @@ BALA202,Tutorial,Tuesday,12:30,14:30,6.40-Computer Lab Single,Nikita Kirplani
 BALA301,Lecture,Wednesday,11:30,13:30,5.11-Classroom B,Yiyang Bian
 BALA301,Tutorial,Monday,12:30,14:30,4.42-Computer Lab (Single Screen),Nada Tchantchane
 BALA301,Tutorial,Wednesday,13:30,15:30,4.42-Computer Lab (Single Screen),Yiyang Bian
+BALA301,Tutorial,Wednesday,16:30,18:30,4.42-Computer Lab (Single Screen),Khaled Eid
 BCM110,Lecture,Monday,08:30,10:30,6.345-Classroom A 6.34 & 6.35,Michael Mallory
 BCM110,Tutorial,Monday,12:30,14:30,6.33-Classroom B,Negin Chabook
 BCM110,Tutorial,Tuesday,14:30,16:30,6.33-Classroom B,Negin Chabook
@@ -659,7 +660,7 @@ ISIT224,Lecture,Thursday,08:30,10:30,4.44-Classroom B,Zeenath Khan
 LANG030,Tutorial A,Tuesday,08:30,11:30,5.10-Classroom B,Nicola Sabry
 LANG030,Tutorial B,Wednesday,14:30,17:30,6.33-Classroom B,Nicola Sabry
 LANG040,Tutorial A,Wednesday,12:30,14:30,4.50-Classroom B,Ajrina Hysaj
-LANG040,Tutorial A,Tuesday,13:30,15:30,5.17-Classroom VC,Nicola Sabry
+LANG040,Tutorial A,Tuesday,13:30,15:30,6.30-Multipurpose - Teaching & Research,Nicola Sabry
 LANG040,Tutorial A,Monday,14:30,16:30,4.44-Classroom B,Sonia Adams
 LANG040,Tutorial B,Monday,09:30,11:30,4.50-Classroom B,Ajrina Hysaj
 LANG040,Tutorial B,Wednesday,11:30,13:30,5.10-Classroom B,Nicola Sabry
@@ -791,7 +792,7 @@ MGNT102,Tutorial,Tuesday,16:30,18:30,5.10-Classroom B,Shaimaa Elsaid
 MGNT102,Tutorial,Wednesday,15:30,17:30,3.42-Classroom B,Muhammad Latif
 MGNT102,Tutorial,Monday,11:30,13:30,4.45-Classroom B,Shaimaa Elsaid
 MGNT102,Tutorial,Monday,15:30,17:30,4.45-Classroom B,Donia Rawashdeh
-MGNT102,Tutorial,Tuesday,13:30,15:30,6.30-Multipurpose - Teaching & Research,Umme Kulsoom
+MGNT102,Tutorial,Tuesday,13:30,15:30,5.17-Classroom VC,Umme Kulsoom
 MGNT102,Tutorial,Tuesday,13:30,15:30,5.18-Classroom A,Donia Rawashdeh
 MGNT102,Tutorial,Thursday,08:30,10:30,4.51-Tutorial Room,Muhammad Latif
 MGNT102,Tutorial,Thursday,12:30,14:30,4.51-Tutorial Room,Muhammad Latif
@@ -828,7 +829,7 @@ MGNT947,Lecture,Thursday,18:00,22:00,3.47-Game Dev Lab Dual Screens,Prithvi Bhat
 MGNT947,Lecture,Thursday,18:00,22:00,3.45-Classroom B,Ruwan Bandara
 MGNT947,Lecture,Thursday,18:00,22:00,3.45-Classroom B,Prithvi Bhattacharya
 MGNT949,Lecture,Tuesday,18:00,22:00,4.45-Classroom B,Mohan Guruswamy
-MGNT978,Lecture,Wednesday,18:00,22:00,4.52-Classroom A,Greig Taylor
+MGNT978,Lecture,Wednesday,18:00,22:00,5.11-Classroom B,Greig Taylor
 MIR901,Lecture,Wednesday,18:00,22:00,3.48-Classroom B,Imene Ajala
 MMC936,Lecture,Tuesday,16:30,17:00,,Michael Mallory
 MMC938,Lecture,Tuesday,12:30,13:00,,Ludmil Trenkov
