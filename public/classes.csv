@@ -6,6 +6,7 @@ ACCY121,Tutorial,Wednesday,15:30,17:30,5.18-Classroom A,Yusra Ghani
 ACCY121,Tutorial,Friday,10:30,12:30,4.46-Classroom A,Alfiya Thaha
 ACCY121,Tutorial,Friday,10:30,12:30,4.47-Classroom A,Avneet Kaur
 ACCY121,Tutorial,Friday,14:30,16:30,5.12-Informal Classroom,Alfiya Thaha
+ACCY121,Tutorial,Tuesday,16:30,18:30,6.33-Classroom B,Alfiya Thaha
 ACCY121,Tutorial,Friday,08:30,10:30,5.10-Classroom B,Avneet Kaur
 ACCY121,Tutorial,Wednesday,09:30,11:30,5.19-Classroom A,Avneet Kaur
 ACCY121,Tutorial,Wednesday,12:30,14:30,3.46-Classroom A,Avneet Kaur
@@ -109,6 +110,7 @@ BUS121,Tutorial,Monday,15:30,17:30,4.52-Classroom A,Sabreen Wahbeh
 BUS121,Tutorial,Tuesday,15:30,17:30,4.51-Tutorial Room,Sabreen Wahbeh
 BUS121,Tutorial,Wednesday,13:30,15:30,3.42-Classroom B,Nikita Kirplani
 BUS121,Tutorial,Monday,16:30,18:30,6.28-Seminar/Tutorial,Ayush Mishra
+BUS121,Tutorial,Tuesday,15:30,17:30,5.18-Classroom A,Sherwin Fernandes
 BUS121,Tutorial,Monday,13:30,15:30,4.45-Classroom B,Sabreen Wahbeh
 BUS121,Tutorial,Tuesday,13:30,15:30,4.51-Tutorial Room,Sabreen Wahbeh
 BUS121,Tutorial,Monday,14:30,16:30,6.33-Classroom B,Ayush Mishra
@@ -181,13 +183,13 @@ CSCI251,Lecture A,Monday,16:30,18:30,0.17-Lecture Theatre,Abdellatif Tchantchane
 CSCI251,Lecture B,Wednesday,08:30,10:30,0.17-Lecture Theatre,HC Lim
 CSCI251,Lecture B,Tuesday,12:30,14:30,0.17-Lecture Theatre,Abdellatif Tchantchane
 CSCI251,Lecture B,Tuesday,16:30,18:30,0.17-Lecture Theatre,Abdellatif Tchantchane
-CSCI262,Computer Lab,Thursday,08:30,10:30,1.52-Computer Lab Single,Tina Thomas
+CSCI262,Computer Lab,Thursday,08:30,10:30,3.52-Computer Lab (Network),Tina Thomas
 CSCI262,Computer Lab,Friday,10:30,12:30,3.52-Computer Lab (Network),Suzan Sallam
 CSCI262,Computer Lab,Wednesday,12:30,14:30,3.52-Computer Lab (Network),Suzan Sallam
 CSCI262,Computer Lab,Monday,10:30,12:30,3.52-Computer Lab (Network),Suzan Sallam
 CSCI262,Computer Lab,Monday,08:30,10:30,3.52-Computer Lab (Network),Tina Thomas
 CSCI262,Computer Lab,Friday,14:30,16:30,3.52-Computer Lab (Network),Suzan Sallam
-CSCI262,Computer Lab,Thursday,14:30,16:30,6.40-Computer Lab Single,Tina Thomas
+CSCI262,Computer Lab,Thursday,14:30,16:30,3.52-Computer Lab (Network),Tina Thomas
 CSCI262,Lecture A,Wednesday,10:30,12:30,0.17-Lecture Theatre,Mouhannad Al Attar
 CSCI262,Lecture B,Thursday,10:30,12:30,0.17-Lecture Theatre,Mouhannad Al Attar
 CSCI323,Computer Lab,Monday,10:30,12:30,6.40-Computer Lab Single,Obaid Ullah
